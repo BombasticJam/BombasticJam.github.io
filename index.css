@@ -1,0 +1,44 @@
+#heading{
+  color:#A9A9A9
+}
+
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+#navBar{
+  float:top;
+}
+nav {
+    line-height:60px;
+    background-color:#F4F4F4;
+    padding:5px;	      
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+/*   text-align: right; */
+}
+li{
+  display: inline;
+  
+} 
+li a:hover {
+    background-color: #555;
+    color: #f4f4f4;
+}
+li a{
+    color: #373737;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
