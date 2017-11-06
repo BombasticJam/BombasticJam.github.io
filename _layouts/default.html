@@ -2,14 +2,15 @@
 	<html lang="en">
 		{% include head.html %}
 		{% include header.html %}
-		
-		<div class="content">
-			{{content}}
-			{% for post in site.posts %}
+		{% for post in site.posts %}
 			<h2> {{post.title}} </h2>
 			{% endfor %}
+		<body>
+		<div class="content">
+			{{content}}
 		</div>
 	</html>
+		</body>
 		
 		
 		
