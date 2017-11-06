@@ -2,12 +2,12 @@
 	<html lang="en">
 		{% include head.html %}
 		{% include header.html %}
-		{% for post in site.posts %}
-			<h2> {{post.title}} </h2>
-		<p> {{post.date}}</p>
 		<body>
 		<div class="content">
 			{{content}}
+			{% for post in site.posts: 3 %}
+			<h2> {{post.title}} </h2>
+		<p> {{post.date}}</p>
 		</div>
 	</html>
 		</body>
