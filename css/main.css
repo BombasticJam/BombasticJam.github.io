@@ -29,15 +29,15 @@ ul{
   padding: 0;
 /*   text-align: right; */
 }
-ol{
+li{
   display: inline;
   
 } 
-ol a:hover {
+li a:hover {
     background-color: #555;
     color: #f47742;
 }
-ol a{
+li a{
     color: #373737;
     text-align: center;
     padding: 14px 16px;
